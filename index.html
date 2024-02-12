@@ -3,102 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="main.css">
   <title>Frontend Mentor | Recipe page</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-    body {
-      background-color: hsl(30, 54%, 90%);
-      width: 100%;
-      
-      margin: auto;
-    }
-    div.prepTime{
-      padding: 3%;
-      background-color: hsl(330, 100%, 98%);
-      border-radius: 10px;
-    }
-    img {
-      object-fit: contain;
-    }
-    p{
-      font-size: small; 
-      font-family: "Outfit";
-    }
-    section {
-      width: 50%;
-      height: 100%;
-      margin: auto;
-      margin-top: 10%;
-      padding: 3%;
-      background-color: white;
-      border-radius: 20px;
-      vertical-align: middle;
-    }
-    img.omelette{
-      height: 100%;
-      width: 100%;
-      border-radius: 10px;
-    }
-    li{
-      padding: 1%;
-      font-family: "Outfit";
-      font-size: small;
-      
-    }
-    li.liPrepTime::marker{
-      color: hsl(332, 51%, 32%);
-    }
-    li.liIngredients::marker{
-      color: hsl(14, 45%, 36%);
-    }
-    li.liIngredients{
-      padding-left: 2%;
-    }
-    span.li{
-      font-weight: 600;
-    }
-    span{
-      font-family: "Outfit";
-    }
-    span.title{
-      font-size: small;
-      margin-left: 5%;
-      display: inline-block;
-      width: 45%;
-    }
-    span.data{
-      
-      font-weight: 600;
-      font-size: small;
-      color: hsl(14, 45%, 36%);
-    }
-    @font-face{
-      font-family: "YoungSerif";
-      src: url("/recipe-page-main/assets/fonts/young-serif/YoungSerif-Regular.ttf") format("truetype");
-    }
-    @font-face{
-      font-family: "Outfit";
-      src: url("/recipe-page-main/assets/fonts/outfit/Outfit-VariableFont_wght.ttf") format("truetype");
-    }
-  </style>
 </head>
 <body>
+  <img src="assets/images/image-omelette.jpeg" class="omelette2">
   <section>
-        <img src="assets/images/image-omelette.jpeg" class="omelette">
-        <h1 style="font-family: YoungSerif; font-weight: 400; font-size: xx-large; margin-bottom: 2%;">Simple Omelette Recipe</h1>
-          <p style="">An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked 
+        <img src="assets/images/image-omelette.jpeg" class="omelette1">
+        <h1>Simple Omelette Recipe</h1>
+          <p>An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked 
             to perfection, optionally filled with your choice of cheese, vegetables, or meats.</p>
           
           <div class="prepTime">
-            <h2 style="color: hsl(332, 51%, 32%); font-family: Outfit; font-weight: 700; font-size: large;">Preparation time</h2>
-
-            <ul style="padding-left: 5%;">
+            <h2 class="prepTime">Preparation time</h2>
+            <ul>
               <li class="liPrepTime"><span class="li">Total:</span> Approximately 10 minutes</li>
               <li class="liPrepTime"><span class="li">Preparation:</span> 5 minutes</li>
               <li class="liPrepTime"><span class="li">Cooking:</span> 5 minutes</li>
@@ -106,9 +25,9 @@
           </div>
           
 
-          <h2 style="font-family: YoungSerif; font-weight: 400; font-size: x-large; margin-bottom: 2%; color: hsl(14, 45%, 36%);">Ingredients</h2>
+          <h2>Ingredients</h2>
          
-          <ul style="padding-left: 4%;">
+          <ul>
             <li class="liIngredients">2-3 large eggs</li>
             <li class="liIngredients">Salt, to taste</li>
             <li class="liIngredients">Pepper, to taste</li>
@@ -116,11 +35,11 @@
             <li class="liIngredients">Optional fillings: cheese, diced vegetables, cooked meats, herbs</li>
           </ul>
 
-          <hr style="background-color:hsl(30, 18%, 87%); border-style: none; height: 1px;">
+          <hr>
 
-          <h2 style="font-family: YoungSerif; font-weight: 400; font-size: x-large; margin-bottom: 2%; color: hsl(14, 45%, 36%);">Instructions</h2>
+          <h2>Instructions</h2>
 
-          <ol style="padding-left: 4%;">
+          <ol>
             <li class="liIngredients"><span class="li">Beat the eggs:</span> In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. 
               You can add a tablespoon of water or milk for a fluffier texture.</li>
             <li class="liIngredients"><span class="li">Heat the pan:</span> Place a non-stick frying pan over medium heat and add butter or oil.</li>
@@ -133,23 +52,23 @@
             <li class="liIngredients"><span class="li">Enjoy:</span> Serve hot, with additional salt and pepper if needed.</li>
           </ol>
 
-          <hr style="background-color:hsl(30, 18%, 87%); border-style: none; height: 1px;">
+          <hr>
 
-          <h2 style="font-family: YoungSerif; font-weight: 400; font-size: x-large; margin-bottom: 2%; color: hsl(14, 45%, 36%);">Nutrition</h2>
+          <h2>Nutrition</h2>
 
           <p>The table below shows nutritional values per serving without the additional fillings.</p>
 
           <div><span class="title">Calories</span><span class="data">277kcal</span></div>
-          <hr style="background-color:hsl(30, 18%, 87%); border-style: none; height: 1px;">
+          <hr>
 
           <div><span class="title">Carbs</span><span class="data">0g</span></div>
-          <hr style="background-color:hsl(30, 18%, 87%); border-style: none; height: 1px;">
+          <hr>
 
           <div><span class="title">Protein</span><span class="data">20g</span></div>
-          <hr style="background-color:hsl(30, 18%, 87%); border-style: none; height: 1px;">
+          <hr>
 
           <div><span class="title">Fat</span><span class="data">22g</span></div>
-          <hr style="background-color:hsl(30, 18%, 87%); border-style: none; height: 1px;">
+          <hr>
           
       </div>
     </section>

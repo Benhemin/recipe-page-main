@@ -1,27 +1,60 @@
-# Simple Recipe page
+# Frontend Mentor - Recipe page solution
 
-![Design preview for the Recipe page coding challenge](./design/desktop-preview.jpg)
+This is a solution to the [Recipe page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm).
 
-## Deploying your project
+## Table of contents
 
-As mentioned above, there are many ways to host your project for free. Our recommend hosts are:
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
 
-- [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
+**Note: Delete this note and update the table of contents based on what sections you keep.**
 
-You can host your site using one of these solutions or any of our other trusted providers. [Read more about our recommended and trusted hosts](https://medium.com/frontend-mentor/frontend-mentor-trusted-hosting-providers-bf000dfebe).
+## Overview
 
-## Create a custom `README.md`
+### Screenshot
 
-We strongly recommend overwriting this `README.md` with a custom one. We've provided a template inside the [`README-template.md`](./README-template.md) file in this starter code.
+![](/recipe-page-main/assets/images/Screenshot.PNG)
 
-The template provides a guide for what to add. A custom `README` will help you explain your project and reflect on your learnings. Please feel free to edit our template as much as you like.
+### Links
 
-Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
-## Submitting your solution
+## My process
 
-Submit your solution on the platform for the rest of the community to see. Follow our ["Complete guide to submitting solutions"](https://medium.com/frontend-mentor/a-complete-guide-to-submitting-solutions-on-frontend-mentor-ac6384162248) for tips on how to do this.
+I like to work section by section in a linear fashion. Starting with the biggest pieces. Once I have them where I want I try and style them as I go. Once I have the page looking like I want I go back and try to seperate and optimize styles and structures for the sake of readability.
 
-Remember, if you're looking for feedback on your solution, be sure to ask questions when submitting it. The more specific and detailed you are with your questions, the higher the chance you'll get valuable feedback from the community.
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+
+### What I learned
+
+I have known HTML and CSS for a long time but really haven't worked in either of them in quite a while. This project was an excellent refresher and great opportunity to knock of the rust!
+
+I really tried to organize the HTML in an efficeint way so styling became much easier. 
+
+I was really pleased with the end result and as I worked my way through the project I began to pickup momentum and really flew through it near the end.
+
+
+### Continued development
+
+In future projects I want to start using some css libraries/architectures such as flexbox, grid, or even some JS libraries to help make the pages more modular and easier to structure and style. 
+
+### Useful resources
+    https://www.w3schools.com/css/default.asp
+    https://www.w3schools.com/html/default.asp
+
+## Author
+
+- Github - [Benjamin Ruelas](https://github.com/Benhemin)
+- Frontend Mentor - [@Benhemin](https://www.frontendmentor.io/profile/yourusername)

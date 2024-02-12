@@ -1,0 +1,201 @@
+@font-face{
+    font-family: "YoungSerif";
+    src: url("/recipe-page-main/assets/fonts/young-serif/YoungSerif-Regular.ttf") format("truetype");
+}
+@font-face{
+    font-family: "Outfit";
+    src: url("/recipe-page-main/assets/fonts/outfit/Outfit-VariableFont_wght.ttf") format("truetype");
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+@media screen and (min-width: 1440px){
+      
+      body {
+        background-color: hsl(30, 54%, 90%);
+        width: 1440px;
+        margin: auto;
+        padding: 5%;
+      }
+      div.prepTime{
+        padding: 3%;
+        background-color: hsl(330, 100%, 98%);
+        border-radius: 10px;
+      }
+      img {
+        object-fit: contain;
+      }
+      p{
+        font-size: small; 
+        font-family: "Outfit";
+      }
+      section {
+        width: 37%;
+        height: 100%;
+        margin: auto;
+        padding: 2%;
+        background-color: white;
+        border-radius: 20px;
+        vertical-align: middle;
+      }
+      img.omelette1{
+        height: 100%;
+        width: 100%;
+        border-radius: 10px;
+      }
+      img.omelette2{
+        display: none;
+      }
+      li{
+        padding: 1%;
+        font-family: "Outfit";
+        font-size: small;
+        
+      }
+      li.liPrepTime::marker{
+        color: hsl(332, 51%, 32%);
+      }
+      li.liIngredients::marker{
+        color: hsl(14, 45%, 36%);
+      }
+      li.liIngredients{
+        padding-left: 2%;
+      }
+      span.li{
+        font-weight: 600;
+      }
+      span{
+        font-family: "Outfit";
+      }
+      span.title{
+        font-size: small;
+        margin-left: 5%;
+        display: inline-block;
+        width: 45%;
+      }
+      span.data{
+        
+        font-weight: 600;
+        font-size: small;
+        color: hsl(14, 45%, 36%);
+      }
+      hr{
+        background-color:hsl(30, 18%, 87%);
+        border-style: none; 
+        height: 1px;
+      }
+      h2{
+        font-family: YoungSerif; 
+        font-weight: 400; 
+        font-size: x-large; 
+        color: hsl(14, 45%, 36%);
+      }
+      h2.prepTime{
+        color: hsl(332, 51%, 32%); 
+        font-family: Outfit; 
+        font-weight: 700; 
+        font-size: large;
+      }
+      h1{
+        font-family: YoungSerif; 
+        font-weight: 400; 
+        font-size: xx-large; 
+        margin-bottom: 2%;
+      }
+      ul ol{
+        padding-left: 4%;
+      }
+    }
+
+    @media screen and (max-width: 1439px) {
+        li.liIngredients::marker{
+            color: hsl(14, 45%, 36%);
+          }
+          li.liIngredients{
+            padding-left: 2%;
+          }
+          span.li{
+            font-weight: 600;
+          }
+          span{
+            font-family: "Outfit";
+          }
+          span.title{
+            font-size: small;
+            margin-left: 5%;
+            display: inline-block;
+            width: 45%;
+          }
+          span.data{
+            
+            font-weight: 600;
+            font-size: small;
+            color: hsl(14, 45%, 36%);
+          }
+        li{
+            padding: 1%;
+            font-family: "Outfit";
+            font-size: small;
+            
+        }
+        li.liPrepTime::marker{
+            color: hsl(332, 51%, 32%);
+        }
+        span.li{
+            font-weight: 600;
+        }
+        p{
+            font-size: small; 
+            font-family: "Outfit";
+        }
+        div.prepTime{
+            padding: 3%;
+            background-color: hsl(330, 100%, 98%);
+            border-radius: 10px;
+        }
+        body{
+            height: 100%;
+            width: 375px;
+            padding: 0%;
+            margin: 0%;
+        }
+        img.omelette2 {
+            width: 100%;
+            height: auto;
+        }
+        img.omelette1{
+            display: none;
+        }
+        section {
+            max-width: 90%;
+            height: 100%;
+            margin: auto;
+            padding: 10%;
+            padding-top: 0%;
+            background-color: white;
+            vertical-align: middle;
+        }
+        hr{
+            background-color:hsl(30, 18%, 87%);
+            border-style: none; 
+            height: 1px;
+        }
+        h2{
+            font-family: YoungSerif; 
+            font-weight: 400; 
+            font-size: x-large; 
+            color: hsl(14, 45%, 36%);
+        }
+        h2.prepTime{
+            color: hsl(332, 51%, 32%); 
+            font-family: Outfit; 
+            font-weight: 700; 
+            font-size: large;
+            margin-left: 4%;
+        }
+        h1{
+            font-family: YoungSerif; 
+            font-weight: 400; 
+            font-size: xx-large; 
+            margin-bottom: 2%;
+        }
+    }
