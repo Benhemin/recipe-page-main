@@ -15,13 +15,12 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
 ### Screenshot
 
-![](/recipe-page-main/assets/images/Screenshot.PNG)
+![](/assets/images/Screenshot.PNG)
 
 ### Links
 
